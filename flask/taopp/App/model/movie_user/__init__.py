@@ -1,0 +1,1 @@
+from .MovieUser import MovieUser
