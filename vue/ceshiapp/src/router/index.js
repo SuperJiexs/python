@@ -30,5 +30,6 @@ export default new Router({
       name: detail,
       component: detail,
     },
+
   ],
 })

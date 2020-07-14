@@ -2,6 +2,7 @@ import axios from 'axios';
 
 let host_ct = '/ct';
 let host_cl = '/cl';
+let  host_ad='/ad';
 
 //城市
 export const citys = params => {
@@ -37,6 +38,14 @@ export const xq = mdy => {
 export const mvrm = params => {
   return axios.get(`${host_ct}/mvrm/`)
 }
+
+//denglu
+export const denglu = params => {
+  return axios.post(`${host_cl}/mua/`,params)
+}
+
+
+
 
 
 
